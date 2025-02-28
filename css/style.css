@@ -15,7 +15,7 @@ body {
     
     padding: 10px;
     border-radius: 10px;
-    width:90%;
+    width:80%;
     margin: auto;
     height: 100%;
    
@@ -38,7 +38,7 @@ body {
 .column {
     display: flex;
     flex-direction: column;
-    animation: scrollUp 20s ease-in-out infinite alternate;
+    
 }
 
 .column:nth-child(odd) {
