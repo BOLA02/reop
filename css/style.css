@@ -15,7 +15,7 @@ body {
     
     padding: 10px;
     border-radius: 10px;
-    width:80%;
+    width:90%;
     margin: auto;
     height: 100%;
    
@@ -38,7 +38,7 @@ body {
 .column {
     display: flex;
     flex-direction: column;
-    
+    animation: scrollUp 20s ease-in-out infinite alternate;
 }
 
 .column:nth-child(odd) {
@@ -72,6 +72,12 @@ body {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     text-align:start;
     backdrop-filter: blur(5px);
+}
+
+
+.user-info{
+display: flex;
+justify-content: space-between;
 }
 .blur-effect {
     
@@ -117,4 +123,3 @@ display: flex;
     font-size: 14px;
     color: #333;
 }
-
